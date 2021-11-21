@@ -32,6 +32,8 @@ Route::get('/contact', [ContactFormController::class, 'index'])->name('contact-f
 
 Route::post('/send', [ContactFormController::class, 'send'])->name('contact-form-send');
 
+Route::post('/reload-captcha', [ContactFormController::class, 'reloadCaptcha'])->name('reloadCaptcha');
+
 
 // Admin
 

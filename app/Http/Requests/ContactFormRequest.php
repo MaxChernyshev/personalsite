@@ -19,6 +19,7 @@ class ContactFormRequest extends FormRequest
             'name' => ['required', 'string', 'min:2'],
             'email' => ['required', 'email'],
             'letter' => ['required', 'string', 'min:5'],
+            'captcha' => ['required', 'captcha'],
         ];
     }
 }

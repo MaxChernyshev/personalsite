@@ -37,6 +37,16 @@
                             </div>
                         @endif
                     </div>
+                    <div class="form-group mt-4 mb-4">
+                        <div class="captcha">
+                            <span>{!! captcha_img() !!}</span>
+                            <a class="btn btn-danger reload" onClick="history.go(0);">↻</a>
+                        </div>
+                    </div>
+                    <div class="form-group mb-4">
+                        <input id="captcha" type="text" class="form-control" placeholder="Enter Captcha" name="captcha">
+                    </div>
+
                     <button type="submit" class="btn btn-primary mb-2">Send message</button>
                 </form>
             </div>

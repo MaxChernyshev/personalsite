@@ -20,4 +20,9 @@ class ContactFormController extends Controller
 
         return redirect('/')->with('success', 'Thank you! your message sent successfully.');
     }
+
+    public function reloadCaptcha()
+    {
+        return response()->json(['captcha'=> captcha_img()]);
+    }
 }
