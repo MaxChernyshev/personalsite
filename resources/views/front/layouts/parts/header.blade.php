@@ -21,7 +21,10 @@
             <div class="col-12">
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Contact</a>
+                        <a class="nav-link text-white" href="{{ route('mainPage') }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="{{ route('contact-form') }}">Contact</a>
                     </li>
                 </ul>
             </div>
