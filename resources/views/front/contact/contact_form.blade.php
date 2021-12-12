@@ -47,6 +47,8 @@
                         <input id="captcha" type="text" class="form-control" placeholder="Enter Captcha" name="captcha">
                     </div>
 
+                    <!-- TODO display Captha errors-->
+
                     <button type="submit" class="btn btn-primary mb-2">Send message</button>
                 </form>
             </div>

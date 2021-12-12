@@ -18,7 +18,6 @@ class ContactForm extends Mailable
         $this->formData = $formData;
     }
 
-
     public function build()
     {
         return $this->view('front.contact.contact_data')->with($this->formData)->from(env('MAIL_FROM'));
